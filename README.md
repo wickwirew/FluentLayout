@@ -1,10 +1,12 @@
 # FluentLayout
 
-![Swift 3.0.0](https://img.shields.io/badge/Swift-3.0.0-orange.svg)
+![Swift 3.0.1](https://img.shields.io/badge/Swift-3.0.1-green.svg)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/FluentLayout.svg)](#cocoapods)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
 # Usage
+
+![alt tag]()
 
 ```swift
 layout.create(spacing: 12) {
