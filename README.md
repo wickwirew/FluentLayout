@@ -18,11 +18,11 @@ layout.create(spacing: 12) {
     // This section holds post information
     $0.addSection {
 
-    // Group to contain the title, time stamp and heart
-    $0.addStack(alignment: .center, spacing: 0) {
+        // Group to contain the title, time stamp and heart
+        $0.addStack(alignment: .center, spacing: 0) {
 
-        // Title and time stamp should be on top of each other
-        $0.addStack(axis: .vertical, spacing: 0) {
+            // Title and time stamp should be on top of each other
+            $0.addStack(axis: .vertical, spacing: 0) {
                 $0.addTitleLabel(text: "Vaction to the Wilderness")
 
                 // Add custom label
