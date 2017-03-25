@@ -6,7 +6,8 @@
 
 # Usage
 
-![alt tag](https://github.com/wickwirew/FluentLayout/blob/master/Examples/ExampleScreenShot.png =375x667)
+<!--![alt tag](https://github.com/wickwirew/FluentLayout/blob/master/Examples/ExampleScreenShot.png =375x667)-->
+<img src="https://github.com/wickwirew/FluentLayout/blob/master/Examples/ExampleScreenShot.png" width="48">
 
 ```swift
 layout.create(spacing: 12) {
