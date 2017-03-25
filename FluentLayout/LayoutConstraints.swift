@@ -26,7 +26,7 @@ public extension UIView {
         }
         
         if let constant = bottom {
-            self.superview!.addConstraint(NSLayoutConstraint(item: self.superview,
+            self.superview!.addConstraint(NSLayoutConstraint(item: self.superview!,
                                                              attribute: .bottom,
                                                              relatedBy: .equal,
                                                              toItem: self,
@@ -46,7 +46,7 @@ public extension UIView {
         }
         
         if let constant = right {
-            self.superview!.addConstraint(NSLayoutConstraint(item: self.superview,
+            self.superview!.addConstraint(NSLayoutConstraint(item: self.superview!,
                                                              attribute: .right,
                                                              relatedBy: .equal,
                                                              toItem: self,
