@@ -1,12 +1,5 @@
-//
-//  Layout.swift
-//  SimpleLayout
-//
-//  Created by Wes on 3/22/17.
-//  Copyright © 2017 FromBordem. All rights reserved.
-//
-
 import Foundation
+
 
 
 open class Layout: UIStackView {
