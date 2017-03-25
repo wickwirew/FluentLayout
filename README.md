@@ -6,13 +6,13 @@
 
 # Usage
 
-![alt tag]()
+![alt tag](https://github.com/wickwirew/FluentLayout/blob/master/Examples/ExampleScreenShot.png)
 
 ```swift
 layout.create(spacing: 12) {
 
     // Top Title
-    $0.addSection(title: "Snowy Forrest")
+    $0.addSection(title: "Lorem Ipsum")
 
     // Main Image, keep ratio of image
     $0.addImage(named: "snow.png").pinImageAspectRatio()
@@ -25,7 +25,7 @@ layout.create(spacing: 12) {
 
             // Title and time stamp should be on top of each other
             $0.addStack(axis: .vertical, spacing: 0) {
-                $0.addTitleLabel(text: "Vaction to the Wilderness")
+                $0.addTitleLabel(text: "Neque Porro Quisquam")
 
                 // Add custom label
                 $0.add(view: createdTime)
