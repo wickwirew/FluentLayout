@@ -4,10 +4,12 @@
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/FluentLayout.svg)](#cocoapods)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
-# Usage
 
-<!--![alt tag](https://github.com/wickwirew/FluentLayout/blob/master/Examples/ExampleScreenShot.png =375x667)-->
-<img src="https://github.com/wickwirew/FluentLayout/blob/master/Examples/ExampleScreenShot.png" width="48">
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+<img src="https://github.com/wickwirew/FluentLayout/blob/master/Examples/ExampleScreenShot.png" width="300">
 
 ```swift
 layout.create(spacing: 12) {
@@ -41,3 +43,24 @@ layout.create(spacing: 12) {
     }
 }
 ```
+
+## Requirements
+* Xcode 8.0
+* Swift 3.0+
+
+## Installation
+
+FluentLayout is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'FluentLayout'
+```
+
+## Author
+
+Wesley Wickwire, wickwirew@gmail.com
+
+## License
+
+FluentLayout is available under the MIT license. See the LICENSE file for more info.
