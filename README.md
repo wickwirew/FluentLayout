@@ -4,21 +4,19 @@
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/FluentLayout.svg)](#cocoapods)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
-## Concepts
+## Overview
 
-FluentLayout's primary goal is to provide a simple, readable way to write UI code in Swift.
+FluentLayout's primary goal is to provide a simple, readable way to write UI code in Swift. Not using storyboards and doing all UI work all in code can be very daunting and get very complex very quickly.
 
-Not using storyboards and doing all UI work all in code can be very daunting and get very complex very quickly. FluentLayout simplifies the process.
+Every Layout is just a UIStackView under the covers and can be treated and used as such. 
 
-Every layout in FluentLayout is just a UIStackView under the covers and can be treated and used as such.
-
-In FluentLayout there is the concept of a section in the UI. All a section is, is just a simple way of adding a section to the UI of related items with a different background color.
+In FluentLayout there is the concept of a section in the UI. All a section is, is just a simple way of breaking up a section to the UI of related items into it's own part with a different background color.
 
 ## Usage
 
 For example if we were creating a new social media app and at the top of the want the following profile header:
 
-<img src="https://github.com/wickwirew/FluentLayout/blob/master/Examples/ProfileHeader.png" width="182">
+<img src="https://github.com/wickwirew/FluentLayout/blob/master/Examples/ProfileHeader.png" width="375">
 
 First we would create the layout and controls. Then add the layout to the view and add constraints for its top, left, and right edges.
 Note: the controls are not added to the layout yet.
@@ -39,7 +37,7 @@ let title = UILabel()
 title.text = "Last online 8 hrs ago"
 title.textColor = .lightGray
 title.font = UIFont.systemFont(ofSize: 13, weight: UIFontWeightLight)
-``
+```
 
 On the layout we can call `layout.addSection` then in a closure layout the section. 
 
@@ -54,7 +52,7 @@ layout.addSection {
         }
     }
 }
-``
+```
 
 ## Example
 
