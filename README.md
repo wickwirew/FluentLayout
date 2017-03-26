@@ -113,6 +113,9 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'FluentLayout'
 ```
+## Contributions
+
+Contributions are welcome and encouraged!
 
 ## Author
 
