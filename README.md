@@ -95,7 +95,7 @@ layout.create(spacing: 12) {
         $0.addLabel(text: loremIpsum)
     }
 }
-``
+```
 
 ## Requirements
 * Xcode 8.0
