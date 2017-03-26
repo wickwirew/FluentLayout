@@ -26,8 +26,8 @@ let layout = Layout()
 view.addSubview(layout)
 layout.pinToSuperview(top: 12, left: 12, right: 12)
 
-let pic = UIImageView()
-pic.image = UIImage(named: "ProfilePicture")
+let profilePicture = UIImageView()
+profilePicture = UIImage(named: "ProfilePicture")
 
 let name = UILabel()
 name.text = "Wes Wickwire"
@@ -43,8 +43,9 @@ On the layout we can call `layout.addSection` then in a closure layout the secti
 
 ```swift
 layout.addSection {
-    $0.addStack(alignment: .top, spacing: 8) {
-        $0.add(view: pic).pin(size: CGSize(width: 50, height: 50))
+    $0.addStack(axis: .horizontal, alignment: .top, spacing: 8) {
+
+        $0.add(view: profilePicture).pin(size: CGSize(width: 50, height: 50))
 
         $0.addStack(axis: .vertical, spacing: 0) {
             $0.add(view: name)
