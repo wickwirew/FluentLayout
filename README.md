@@ -8,7 +8,7 @@
 
 FluentLayout's primary goal is to provide a simple, readable way to write UI code in Swift. Not using storyboards and doing all UI work all in code can be very daunting and get very complex very quickly.
 
-Every Layout is just a UIStackView under the covers and can be treated and used as such. 
+A Layout is just a UIStackView under the covers and can be treated and used as such. 
 
 In FluentLayout there is the concept of a section in the UI. All a section is, is just a simple way of breaking up a section to the UI of related items into it's own part with a different background color.
 
@@ -53,6 +53,10 @@ layout.addSection {
     }
 }
 ```
+
+All default colors, spacings, and insets can be changed from the `LayoutDefaults` class.
+
+For customizing the default controls (e.g. using methods like `layout.addLabel(text:)`) create a new class that conforms to the protocol `LayoutDefaultControls` and set `LayoutDefaults.defaultControls` to an instance of your new class. It will then use that to create all controls. Use of this class is not needed at all, provided as a ease of use to quickly add UI elements.
 
 ## Example
 
