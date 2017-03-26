@@ -8,7 +8,7 @@
 
 FluentLayout's primary goal is to provide a simple, readable way to write UI code in Swift. Not using storyboards and doing all UI work all in code can be very daunting and get very complex very quickly.
 
-A Layout is just a UIStackView under the covers and can be treated and used as such. 
+A `Layout` is just a UIStackView under the covers with some nicer syntax and helpers on top.
 
 In FluentLayout there is the concept of a section in the UI. All a section is, is just a simple way of breaking up a section to the UI of related items into it's own part with a different background color.
 
